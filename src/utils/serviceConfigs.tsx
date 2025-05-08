@@ -471,5 +471,16 @@ export async function getDefaultServiceConfigs(path: string) {
         XERO_CLIENT_SECRET: "",
       },
     },
+    virtuoso_odbc: {
+      thirdParty: true,
+      command: "npx",
+      args: ["-y", "tsx", "node_modules/mcp-odbc-server/src/main.ts"],
+      env: {
+        ODBC_DSN: "",
+        ODBC_UID: "",
+        ODBC_PWD: "",
+//        ODBCINI: "/Library/ODBC/odbc.ini",
+      },
+    },
   };
 }

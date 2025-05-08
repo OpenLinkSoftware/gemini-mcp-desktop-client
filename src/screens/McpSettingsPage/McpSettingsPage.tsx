@@ -137,6 +137,7 @@ const labelKeyMap: Record<string, string> = {
     "Tavily Mcp": "tavily-mcp",
     Vectorize: "vectorize",
     Xero: "xero",
+    "Virtuoso ODBC": "virtuoso_odbc",
   };
 
 // --- iconMap remains the same ---
@@ -204,6 +205,7 @@ const iconMap: Record<string, JSX.Element> = {
     "Tavily Mcp": <TravelExploreIcon />,
     Vectorize: <NearMeIcon />,
     Xero: <NextWeekIcon />,
+    "Virtuoso ODBC": <StorageIcon />,
   };
 
 // --- ServiceItem type remains the same ---
